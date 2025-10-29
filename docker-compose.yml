@@ -1,0 +1,11 @@
+services:
+  coturn:
+    image: coturn/coturn
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    ports:
+      - '3478:3478'
+      - '3478:3478/udp'
+      - '5349:5349'
+      - '5349:5349/udp'
+      - '49152-65535:49152-65535/udp'
