@@ -8,6 +8,9 @@ coturn-action
 ### Web UI
 - `https://${Tunnel ID}.devtunnels.ms:8080/`
 
+### Playground
+- [dirkarnez/coturn-playground](https://github.com/dirkarnez/coturn-playground)
+
 ### Tools
 - [Trickle ICE](https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/)
 
